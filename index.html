@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Sofía Abigail Villamiel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#inicio" class="logo">SV<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#trabajos">Mis trabajos</a></li>
+            </ul>
+
+            <button class="menu-btn" aria-label="Abrir menú">☰</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PORTADA -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <p class="etiqueta">MI PORTFOLIO DIGITAL</p>
+                <h1>Hola, soy<br><span>Sofía Abigail</span></h1>
+
+                <p class="hero-description">
+                    Soy Sofía Abigail Villamiel. En este espacio reúno
+                    mis trabajos, proyectos y aprendizajes realizados
+                    durante la materia.
+                </p>
+
+                <a href="#trabajos" class="btn-principal">
+                    VER MIS TRABAJOS
+                </a>
+            </div>
+
+            <div class="hero-decoration">
+                <div class="pink-circle"></div>
+
+                <div class="hero-card">
+                    <span>PORTFOLIO</span>
+                    <h2>Sofía<br>Abigail<br>Villamiel</h2>
+                    <div class="decor-line"></div>
+                    <p>TRABAJOS Y APRENDIZAJES</p>
+                    <span class="hero-initials">SV.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MI -->
+        <section class="section about" id="sobre-mi">
+            <div class="section-heading">
+                <p class="small-title">UN POCO SOBRE MÍ</p>
+                <h2>Conociendo mi <span>recorrido.</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-number">01</div>
+
+                <div>
+                    <h3>Hola, soy Sofía</h3>
+
+                    <p>
+                        Soy Sofía Abigail Villamiel y este portfolio muestra
+                        parte de mi recorrido por la materia. Acá comparto
+                        las actividades que realicé, las herramientas que
+                        aprendí a utilizar y los proyectos en los que trabajé.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MIS TRABAJOS -->
+        <section class="section projects" id="trabajos">
+
+            <div class="section-heading">
+                <p class="small-title">MI RECORRIDO</p>
+                <h2>Mis <span>trabajos.</span></h2>
+                <p>Un espacio para reunir mis actividades y proyectos.</p>
+            </div>
+
+            <!-- BOTONES DE CATEGORÍAS -->
+            <div class="filters">
+
+                <button type="button" class="filter active" data-filter="escritos">
+                    Trabajos escritos (6)
+                </button>
+
+                <button type="button" class="filter" data-filter="practicos">
+                    Trabajos prácticos (7)
+                </button>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- TRABAJOS ESCRITOS -->
+
+                <article class="project-card" data-category="escritos">
+                    <div class="project-image pink">
+                        <span>01</span>
+                        <strong class="project-symbol">01</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="category">TRABAJO ESCRITO</span>
+                        <h3>1</h3>
+                        <a href="documentos/escrito-1.pdf" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="escritos">
+                    <div class="project-image dark">
+                        <span>02</span>
+                        <strong class="project-symbol">02</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="category">TRABAJO ESCRITO</span>
+                        <h3>2</h3>
+                        <a href="documentos/escrito-2.pdf" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="escritos">
+                    <div class="project-image light">
+                        <span>03</span>
+                        <strong class="project-symbol">03</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="category">TRABAJO ESCRITO</span>
+                        <h3>3</h3>
+                        <a href="documentos/escrito-3.pdf" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="escritos">
+                    <div class="project-image pink">
+                        <span>04</span>
+                        <strong class="project-symbol">04</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="category">TRABAJO ESCRITO</span>
+                        <h3>4</h3>
+                        <a href="documentos/escrito-4.pdf" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="escritos">
+                    <div class="project-image dark">
+                        <span>05</span>
+                        <strong class="project-symbol">05</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="category">TRABAJO ESCRITO</span>
+                        <h3>5</h3>
+                        <a href="documentos/escrito-5.pdf" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="escritos">
+                    <div class="project-image light">
+                        <span>06</span>
+                        <strong class="project-symbol">06</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="category">TRABAJO ESCRITO</span>
+                        <h3>6</h3>
+                        <a href="documentos/escrito-6.pdf" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+
+                <!-- TRABAJOS PRÁCTICOS -->
+
+                <article class="project-card hidden" data-category="practicos">
+                    <div class="project-image pink">
+                        <span>PRÁCTICO</span>
+                        <strong class="project-symbol">01</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>1</h3>
+                        <a href="imagenes/practico-1.png" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+                <article class="project-card hidden" data-category="practicos">
+                    <div class="project-image dark">
+                        <span>PRÁCTICO</span>
+                        <strong class="project-symbol">02</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>2</h3>
+                        <a href="imagenes/practico-2.png" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+                <article class="project-card hidden" data-category="practicos">
+                    <div class="project-image light">
+                        <span>PRÁCTICO</span>
+                        <strong class="project-symbol">03</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>3</h3>
+                        <a href="imagenes/practico-3.png" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+                <article class="project-card hidden" data-category="practicos">
+                    <div class="project-image pink">
+                        <span>PRÁCTICO</span>
+                        <strong class="project-symbol">04</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>4</h3>
+                        <a href="imagenes/practico-4.png" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+                <article class="project-card hidden" data-category="practicos">
+                    <div class="project-image dark">
+                        <span>PRÁCTICO</span>
+                        <strong class="project-symbol">05</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>5</h3>
+                        <a href="imagenes/practico-5.png" target="_blank" class="btn-principal">Ver trabajo</a>
+                    </div>
+                </article>
+
+                <article class="project-card hidden" data-category="practicos">
+                    <div class="project-image light">
+                        <span>PRÁCTICO</span>
+                        <strong class="project-symbol">06</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>6</h3>
+                        <span class="pending-label">No lo tengo</span>
+                    </div>
+                </article>
+
+                <article class="project-card hidden" data-category="practicos">
+                    <div class="project-image pink">
+                        <span>PRÁCTICO</span>
+                        <strong class="project-symbol">07</strong>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>7</h3>
+                        <span class="pending-label">No lo tengo</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- APRENDIZAJES -->
+        <section class="section learning">
+
+            <div class="section-heading">
+                <p class="small-title">LO QUE FUI APRENDIENDO</p>
+                <h2>Mi experiencia <span>en la materia.</span></h2>
+            </div>
+
+            <p class="learning-text">
+                Durante este recorrido pude trabajar con distintas herramientas,
+                realizar actividades de programación, diseño y creación de
+                páginas web, y conocer nuevas formas de desarrollar proyectos.
+            </p>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>PHP</span>
+                <span>WordPress</span>
+                <span>Google Analytics</span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <h2>Sofía <span>Abigail</span></h2>
+        <p>Portfolio digital · 2026</p>
+        <p class="footer-small">Mis trabajos y aprendizajes</p>
+    </footer>
+
+</body>
+</html>
